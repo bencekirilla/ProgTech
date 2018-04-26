@@ -8,7 +8,6 @@ public class Game {
 
 	public static void main(String[] args) throws ParseException {
 		Dungeon dungeon = new Dungeon("FirstMap.json");
-//		dungeon.setTable();
 		dungeon.drawDungeon();
 		
 
