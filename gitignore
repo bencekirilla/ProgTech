@@ -1,0 +1,7 @@
+# User-specific files
+*.idea
+*.classpath
+*.project
+*.settings/
+*./target/
+*./nbproject/
