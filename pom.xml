@@ -27,7 +27,7 @@
 
 	<developers>
 		<developer>
-			<id>Kirilla Bence</id>
+			<name>Kirilla Bence</name>
 			<email>jamesford@outlook.hu</email>
 			<url>https://github.com/bencekirilla</url>
 			<organization>Debreceni Egyetem, Informatikai Kar</organization>
@@ -35,7 +35,7 @@
 			<roles>
 				<role>fejlesztő</role>
 			</roles>
-			<timezone>+1</timezone>
+			<timezone>GMT+1</timezone>
 		</developer>
 	</developers>
 
