@@ -32,7 +32,7 @@ public class GridManager {
 	 * A Játékos jellenlegi helye sorban.
 	 */
 	private static int actualRow;
-	/*
+	/**
 	 * A Játékos jellenlegi helye oszlopban.
 	 */
 	private static int actualCol;

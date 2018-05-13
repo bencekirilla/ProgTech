@@ -1,14 +1,12 @@
-package wumpus;
+package hu.wumpus.control;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import hu.wumpus.control.GridManager;
-import hu.wumpus.database.DataBaseManager;
 import javafx.scene.paint.Color;
 
-public class DungeonTester {
+public class GridManagerTest {
 
 	@Test
 	public void colorPickerTesting() {
@@ -36,22 +34,4 @@ public class DungeonTester {
 		assertEquals(false, gridManager.canMoveThere(1, 0, 0, 0, 9));
 		assertEquals(false, gridManager.canMoveThere(4, 4, 5, 5, 4));
 	}
-
-	@Test
-	public void dataBaseSizeTester() {
-		DataBaseManager manager = new DataBaseManager();
-
-		assertEquals(15, manager.getSizeRowFromJson("Ninth.Level"));
-		assertEquals(11, manager.getSizeRowFromJson("Fifth.Level"));
-	}
-
-	@Test
-	public void dataBaseNameTester() {
-		DataBaseManager manager = new DataBaseManager();
-		manager.setName("Bence");
-		assertEquals("Bence", manager.getName());
-		manager.setName("Alfa Béta");
-		assertEquals("Alfa Béta", manager.getName());
-	}
-
 }
